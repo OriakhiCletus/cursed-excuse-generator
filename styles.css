@@ -1,0 +1,92 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: repeating-linear-gradient(
+        45deg,
+        #f0f0f0,
+        #f0f0f0 10px,
+        #dcdcdc 10px,
+        #dcdcdc 20px
+    );
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    width: 90%;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.button-group {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 20px; /* Slightly smaller padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; /* Slightly smaller font */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Style for the Alt button differently to make it "conflicting" */
+#generateBtn2 {
+    background-color: #ff6b6b; /* Reddish */
+}
+
+#generateBtn2:hover {
+    background-color: #ff5252; /* Darker Reddish */
+}
+
+/* Style for the Debunk button differently */
+#debunkBtn {
+    background-color: #2196F3; /* Blue */
+}
+
+#debunkBtn:hover {
+    background-color: #0b7dda; /* Darker Blue */
+}
+
+.excuse-box {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border: 2px dashed #ccc;
+    background-color: #fafafa;
+    min-height: 80px; /* Slightly taller */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem; /* Slightly smaller font */
+    color: #333;
+    line-height: 1.4; /* Better line height for longer excuses */
+}
